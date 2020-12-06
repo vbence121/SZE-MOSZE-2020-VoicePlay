@@ -27,7 +27,7 @@ struct posit{
 
 class Game;
 
-//enum type{Free, Wall, Her, Monst};
+
 
 class Map{
 private:
