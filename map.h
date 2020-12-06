@@ -190,7 +190,7 @@ public:
         if(!level_given || her == nullptr) throw Game::NotInitializedException();
         //std::map<Monster*, posit> m_list(monster_list);
         //!(m_list.empty())
-        while(true){
+        while(!(monster_list.empty())){
             
             if(!(her->isAlive())){
                 level.put(hero_pos.x,hero_pos.y,'M');
